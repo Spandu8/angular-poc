@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
     @Inject(MAT_DIALOG_DATA) data) {
         console.log(data,'data');
    }
+   
 
   ngOnInit() {
   }
